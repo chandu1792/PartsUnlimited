@@ -1,6 +1,6 @@
 ﻿var appInsights = window.appInsights || function (config) {
     function s(config) {
-        t[config] = function () {
+        [config] = function () {
             var i = arguments;
             t.queue.push(function () {
                 t[config].apply(t, i)
@@ -8,7 +8,7 @@
         }
     }
 
-    var t = {
+    var  = {
         config: config
     },
         r = document,
